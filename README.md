@@ -41,19 +41,19 @@ Devart MCP Server Universal sits between your AI tool and your data source.
 4. The data source returns the data.
 5. The MCP server transforms the result into output suitable for AI processing.
 
-
-
 ## Quick start
 
-1. [Install](#installation) Devart MCP Server Universal.
+1. Install Devart Universal MCP Server - **[⬇ Download](https://www.devart.com/mcp/universal/)**.
+*The recommended way is the ready-to-use installer that includes a built-in GUI for connection configuration — no manual config file editing required.*
 2. Install and activate the required [Devart ODBC Driver](https://www.devart.com/odbc/) for your data source.
-3. Launch the product and configure a connection using an existing DSN or a custom ODBC connection string.
+3. Launch the product and configure a connection in the product UI:
+
+![Devart MCP Server for PostgreSQL — configuration interface](https://github.com/devart-ai-connectivity/.github/blob/main/assets/gui_placeholder.png)
+
 4. Connect your AI tool using the integration guide for your tool.
 5. Run your first natural-language query.
 
-## Installation
-
-TBA
+For a detailed setup walkthrough, see [documentation](https://docs.devart.com/mcp-server-universal/install/).
 
 ## Connection modes
 
