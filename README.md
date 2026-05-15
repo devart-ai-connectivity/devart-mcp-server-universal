@@ -1,93 +1,70 @@
-[![Devart MCP Server Universal](https://github.com/devart-ai-connectivity/.github/blob/main/assets/mcp_server_universal_banner.png)](https://www.devart.com/mcp/universal/)
-
-30 days free trial &nbsp;•&nbsp; Works with any ODBC-accessible source &nbsp;•&nbsp; Claude · Copilot · JetBrains
+[![Devart MCP Server Universal](https://github.com/devart-ai-connectivity/.github/blob/main/assets/cover-banner-mcp-server-universal.webp?raw=true)](https://www.devart.com/mcp/universal/)
 
 # Devart MCP Server Universal
 
-Self-hosted MCP server for secure AI access to databases and cloud applications through ODBC.
-
-Devart MCP Server Universal is a middleware component that sits between your AI tool and any ODBC-accessible data source — without custom development for each connection. With on-premises deployment, it keeps data inside your infrastructure and out of third-party SaaS services.
-
-## Why Universal MCP Sever
-
-Use one MCP layer for multiple data sources instead of deploying and maintaining a separate integration for every system.
-
-Devart MCP Server Universal is designed for teams that need practical, secure AI-to-data access with a simpler setup and a focused product scope.
+Devart MCP Server Universal connects AI clients to your internal databases and cloud services through a single self-hosted MCP layer. No more building single-source MCP servers or setting up custom integrations. Instead, you get a quick and secure way to connect AI to all the data sources that your business is already using.
 
 ## Key benefits
 
-- One MCP layer for multiple data sources
-- Works with any ODBC-accessible database or cloud application
-- Self-hosted and on-premises by design
-- Keeps data inside your infrastructure
-- Fast setup with a practical GUI-based configuration flow
-- Easy integration with popular AI tools
+Devart MCP Server Universal enables you to:
+
+* Get unified access to multiple data sources.
+* Reduce custom integrations and maintenance to a minimum.
+* Keep sensitive data secure inside your environment.
+* Launch internal AI workflows in a faster and easier way.
 
 ## How it works
 
-Devart MCP Server Universal sits between your AI tool and your data source.
+Devart MCP Server Universal helps AI clients translate natural-language prompts into structured queries, execute those queries against data sources, and return clean, structured results back to the AI.
 
-![Devart MCP Server architecture](https://github.com/devart-ai-connectivity/.github/blob/main/assets/mcp-server-architecture.png)
-
-1. An AI tool sends a natural-language request to the MCP server.
-2. The MCP server processes the request and generates SQL.
-3. The ODBC driver translates and sends the request to the target data source.
-4. The data source returns the data.
-5. The MCP server transforms the result into output suitable for AI processing.
+![Devart MCP Server architecture](https://github.com/devart-ai-connectivity/.github/blob/main/assets/how_mcp_works_universal.webp)
 
 ## Quick start
 
-1. Install Devart Universal MCP Server - **[⬇ Download](https://www.devart.com/mcp/universal/)**.
-*The recommended way is the ready-to-use installer that includes a built-in GUI for connection configuration — no manual config file editing required.*
-2. Install and activate the required [Devart ODBC Driver](https://www.devart.com/odbc/) for your data source.
-3. Launch the product and configure a connection in the product UI:
+To get started with Devart MCP Server Universal:
 
-![Devart MCP Server for PostgreSQL — configuration interface](https://github.com/devart-ai-connectivity/.github/blob/main/assets/gui_placeholder.png)
+1\. Download and install the required [Devart ODBC Driver](https://www.devart.com/odbc/) for your data source.
 
-4. Connect your AI tool using the integration guide for your tool.
-5. Run your first natural-language query.
+2\. [Download](https://www.devart.com/mcp/universal/download.html) and [install](https://docs.devart.com/mcp-universal/installation.html) Devart MCP Server Universal.
 
-For a detailed setup walkthrough, see [documentation](https://docs.devart.com/mcp-server-universal/install/).
+3\. In Devart MCP Server Universal, [configure your data connection and integration settings](https://docs.devart.com/mcp-universal/connection-configuration.html#configure-a-connection-via-the-configuration-file).
 
-## Connection modes
+![Devart MCP Server configuration](https://github.com/devart-ai-connectivity/.github/blob/main/assets/mcp-server-universal-configuration.png)
 
-Universal MCP Server supports two connection setup modes.
+4\. Run your first natural-language query.
 
-### Use existing DSN
+## Supported clients
 
-Use an existing ODBC DSN that is already configured on the machine.
-
-### Configure custom connection
-
-Configure a custom ODBC connection directly in the product UI.
-
-## Supported AI tools
-
-[![Claude Desktop](https://img.shields.io/badge/Claude_Desktop-supported-5B4FE8?logo=anthropic&logoColor=white)](https://docs.devart.com/mcp-server-universal/ai-integration/integrate-with-claude-desktop/)
-[![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-supported-0078D4?logo=github&logoColor=white)](https://docs.devart.com/mcp-server-universal/ai-integration/integrate-with-github-copilot/)
-[![JetBrains IDEs](https://img.shields.io/badge/JetBrains_IDEs-supported-FE2857?logo=jetbrains&logoColor=white)](https://docs.devart.com/mcp-server-universal/ai-integration/integrate-with-jetbrains-ide/)
-
-And other MCP-compatible AI tools.
+Devart MCP Server Universal supports integration with the following AI clients: 
+ 
+* Claude Desktop
+* Visual Studio Code
+* Cursor
+* Codex
+* Windsurf
+* Cline
+* Zed
+* ...and other MCP-compatible AI clients
 
 ## Pricing
 
-- Subscription license: $99/year
-- Perpetual license: $199
+* Subscription license: $99/year
 
-A 30-day free trial is available — no credit card required.
+* Perpetual license: $199 one-time purchase
 
-A compatible [Devart ODBC Driver](https://www.devart.com/odbc/) for the target data source is required separately. Existing ODBC Driver licenses are supported.
+A 30-day free trial is available --- no credit card required.
+
+A compatible [Devart ODBC Driver](https://www.devart.com/odbc/) for the target data source is required separately.
 
 ## Support
 
-- [Documentation](https://docs.devart.com/mcp-server-universal/)
-- [Submit a Request](https://www.devart.com/company/contactform.html)
-- [Suggest a Feature](https://devart.uservoice.com/)
-- [Join Our Forum](https://support.devart.com/portal/en/community)
-- [Trust Center](https://www.devart.com/data-connectivity/trust-center.html)
+* [Documentation](https://docs.devart.com/mcp-universal/)
+* [Submit a request](https://www.devart.com/company/contactform.html)
+* [Suggest a feature](https://devart.uservoice.com/)
+* [Join our forum](https://support.devart.com/portal/en/community)
 
 ## Other Devart connectivity solutions
 
-- [Single-source MCP Servers](https://www.devart.com/mcp/)
-- [ODBC Drivers](https://www.devart.com/odbc/)
-- [dotConnect ADO.NET Providers](https://www.devart.com/dotconnect/)
+* [Single-source MCP Servers](https://www.devart.com/mcp/)
+* [ODBC Drivers](https://www.devart.com/odbc/)
+* [dotConnect ADO.NET Providers](https://www.devart.com/dotconnect/)
