@@ -52,7 +52,7 @@ Devart MCP Server Universal supports integration with the following AI clients:
 
 * Perpetual license: $199 one-time purchase
 
-A 30-day free trial is available --- no credit card required.
+A 30-day free trial is available — no credit card required.
 
 A compatible [Devart ODBC Driver](https://www.devart.com/odbc/) for the target data source is required separately.
 
