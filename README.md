@@ -29,7 +29,7 @@ To get started with Devart MCP Server Universal:
 
 3\. In Devart MCP Server Universal, [configure your data connection and integration settings](https://docs.devart.com/mcp-universal/connection-configuration.html#configure-a-connection-via-the-configuration-file).
 
-![Devart MCP Server configuration](https://github.com/devart-ai-connectivity/.github/blob/main/assets/mcp-servers-gui.webp)
+![Devart MCP Server configuration](https://github.com/devart-ai-connectivity/.github/blob/main/assets/mcp-server-universal-configuration.webp)
 
 4\. Run your first natural-language query.
 
