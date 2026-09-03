@@ -1,5 +1,9 @@
 [![Devart MCP Server Universal](https://github.com/devart-ai-connectivity/.github/blob/main/assets/cover-banner-mcp-server-universal.webp?raw=true)](https://www.devart.com/mcp/universal/)
 
+### Version 1.1.0
+
+**[What's new](https://github.com/devart-ai-connectivity/devart-mcp-server-universal/releases/latest)** · [Changelog](CHANGELOG.md)
+
 # Devart MCP Server Universal
 
 Devart MCP Server Universal connects AI clients to your internal databases and cloud services through a single self-hosted MCP layer. No more building single-source MCP servers or setting up custom integrations. Instead, you get a quick and secure way to connect AI to all the data sources that your business is already using.
